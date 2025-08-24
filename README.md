@@ -20,17 +20,29 @@ STM32F103C8 Support: Written for the STM32F103 "Blue Pill" board but easily port
 ## Directory Structure
 
 VTINYOS.h: The cooperative scheduler.
+
 CoroType.h: The C++20 coroutine type wrapper.
+
 Drivers: Peripheral drivers and hardware abstraction classes.
+
 my_stm32f10_gpio_lib.h/cpp: GPIO pin and port management.
+
 my_stm32f10_uart_lib.h/cpp: UART communication driver.
+
 my_stm32f10_adc_lib.h/cpp: ADC driver and channel management.
+
 my_stm32f10_systick_lib.h/cpp: SYSTICK timer-based delay.
+
 Tasks: Application-level tasks implemented as coroutines.
+
 task.h/cpp: Coroutine tasks for blinking LEDs, reading temperature, etc.
+
 Diag_mgr.h/cpp: Diagnostic manager and event-related tasks.
+
 Utilities: Helper classes and modules.
+
 DEM.h/cpp: The Diagnostic Event Manager and DEM_event classes.
+
 uart_stream.h/cpp: A custom cout-like stream for UART.
 
 ## Proteus Simulation 
